@@ -2270,7 +2270,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(246, 255, 246, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2304,7 +2304,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(30, 15, 15, 0.8);
 }
 
 .btn-secondary.disabled, .btn-secondary:disabled {
@@ -6183,6 +6183,19 @@ a.close.disabled {
   height: 1rem;
 }
 
+.text-block{
+  padding: 50px;
+  font-size: 12px;
+  margin-bottom: 40px;
+  font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: left;
+  
+}
+
 .align-baseline {
   vertical-align: baseline !important;
 }
@@ -6285,6 +6298,18 @@ a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
   background-color: #1d2124 !important;
+}
+
+.bg-alt1 {
+  background-color: #3aafa9;
+}
+
+.bg-alt2 {
+  background-color: #def2f1;
+}
+
+.bg-alt3 {
+  background-color: #feffff;
 }
 
 .bg-white {
