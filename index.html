@@ -20,7 +20,7 @@
 
 
   <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <!-- <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet"> -->
 
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
@@ -43,10 +43,10 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
+          <!-- </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
@@ -78,14 +78,14 @@
         <div class="col-lg-8 text-center">
           <h2 class="text-white mt-0">At a Glance</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">An electronic engineering graduate with a passion for FPGA design and visual processing. I'm currently working as an RF test engineer, specialising in autonomous marine communication systems and digital interfaces.</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">Tell me More!</a>
+          <p class="text-white-50 mb-4">An electronic engineering graduate with a passion for FPGA design and visual processing. I'm currently working as an RF test engineer, specialising in autonomous marine communication systems and digital interfaces. </p>
+          <a class="btn btn-light btn-xl" href="https://drive.google.com/open?id=1rsNCGzemz2JjBtSwVIi1sGWSm0D9p7GC" target="_blank">View resume</a>
         </div>
       </div>
     </div>
   </section>
 
-<section class="page-section" id="portfolio">
+<section class="page-section bg-light" id="portfolio">
   <div class="container">
       <h2 class="text-center mt-0">Portfolio Overview</h2>
       <hr class="divider my-4">
@@ -124,65 +124,43 @@
     <div class="row justify-content-center">
       <div class="col-md-4 text-center">
         <h2>IVPRO</h2>
-        <p>An open-source real-time image and video processing framework for FPGA applications written in VHDL and developed without using IP.</p>
-        <!--<p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>-->
+        <p>An open-source real-time image and video processing framework for FPGA applications written in VHDL.</p>  
+        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/IVPRO" target="_blank" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4 text-center">
         <h2>AIS Latency Detector</h2>
-        <p>A tool for testing the latency of AIS transponders by reading specific NMEA sentences over serial lines.</p>
-        <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+        <p>A tool for testing the latency of AIS transponders, by reading specific NMEA sentences over RS232 serial lines.</p>
+        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/VHDL/tree/master/Latency%20Filter" target="_blank" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4 text-center">
         <h2>RISC Matrices</h2>
         <p>An assembly level tool for multiplying matrices, targeted for MIPS architecure processors.</p>
-        <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
-      </div>
-    </br>
-    </div>
-    <div class="row justify-content-center button-row">
-      <div class="col-md-4 text-center mb-5">
-        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/IVPRO" role="button">View on GitHub &raquo;</a></p> 
-      </div>
-      <div class="col-md-4 text-center mb-3">
-        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/VHDL/tree/master/Latency%20Filter" role="button">View on GitHub &raquo;</a></p>
-      </div>
-      <div class="col-md-4 text-center mb-3">
-        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/MIPS/tree/master/Matrices%20Multiplication" role="button">View on GitHub &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/MIPS/tree/master/Matrices%20Multiplication" target="_blank" role="button">View details &raquo;</a></p>
       </div>
     </div>
+</br></br>
         <div class="row justify-content-center">
       <div class="col-md-4 text-center">
         <h2>FPGA Based MODEM</h2>
         <p>A MODEM written in VHDL that can generate random or predefined values, perform QPSK modulation, simulate a tranmission channel, induce an adjustable error and demodulate the signal.</p>
-        <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+          <p><a class="btn btn-secondary" href="https://github.com/FinOrr/VHDL/tree/master/ENG631" target="_blank" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4 text-center">
         <h2>MATLAB Filters</h2>
         <p>FIR and IIR filter analysis and design in MATLAB for processing noisy audio and ECG signals.</p>
-        <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/MATLAB/tree/master/Filter_Design" target="_blank" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4 text-center">
         <h2>FPGA UART</h2>
         <p>A highly parameterised UART module for FPGA serial communications.</p>
-        <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/UART" target="_blank" role="button">View details &raquo;</a></p>
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-4 text-center">
-        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/VHDL/tree/master/ENG631" role="button">View on GitHub &raquo;</a></p> 
-      </div>
-      <div class="col-md-4 text-center">
-        <p><a class="btn btn-secondary" href="#" role="button">View on GitHub &raquo;</a></p>
-      </div>
-      <div class="col-md-4 text-center">
-        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/UART" role="button">View on GitHub &raquo;</a></p>
-      </div>
-    </div>
-  </div>
+  </div>  
 </section>
 
   <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white" id="resume">
+<!--   <section class="page-section bg-dark text-white" id="resume">
     <div class="container text-center">
       <h2 class="mb-4">Resume</h2>
     </div>
@@ -190,7 +168,6 @@
       <div class="row">
             <div class="col-6 text-block">
                 <h3 class="my-4">Education</h3>
-                  
                 <h3 class="my-4">Experience</h3>     
             </div>
             <div class="col-6 text-block">
@@ -200,18 +177,18 @@
       </div>
     </div>
     <div class="container text-center">
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now</a>
+      
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
+ -->  <!-- Contact Section -->
+  <section class="page-section bg-alt2" id="contact">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
           <h2 class="mt-0">Get In Touch</h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">If you fancy working together, contact me and I will get back to you as soon as possible.</p>
+          <p class="text-muted mb-5">If you fancy working together, then contact me and I will get back to you as soon as possible.</p>
         </div>
       </div>
       <div class="row">
@@ -222,17 +199,20 @@
           </a>
         </div>
         <div class="col-lg-4 mr-auto text-center">
-          
           <a class="d-block" href="mailto:finorr3@gmail.com">
             <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
           </a>
         </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <a class="d-block" href="https://github.com/FinOrr/">
+            <i class="fab fa-github-square fa-3x mb-3 text-muted"></i>  
+          </a>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-light py-5">
+  <footer class="bg-alt2 py-5">
     <div class="container">
       <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
     </div>
@@ -244,7 +224,7 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
