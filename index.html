@@ -12,7 +12,7 @@
 
     <!-- Font Awesome Icons -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
+    
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic'
@@ -22,7 +22,16 @@
 
     <!-- Plugin CSS -->
     <!-- <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet"> -->
+    <style>
+        .portfolio-item {
+            margin-bottom: 2rem;
+        }
 
+        .portfolio-item button {
+            display: block;
+            margin-top: 1rem;
+        }
+    </style>
     <!-- Theme CSS - Includes Bootstrap -->
     <link href="css/creative.css" rel="stylesheet">
 
@@ -65,7 +74,7 @@
                 </div>
                 <div class="col-lg-8 align-self-baseline">
                     <p class="text-white-75 font-weight-light mb-5">Hi, I'm Fin!</p>
-                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Lets Get Started</a>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Let's Get Started</a>
                 </div>
             </div>
         </div>
@@ -78,13 +87,17 @@
                 <div class="col-lg-8 text-center">
                     <h2 class="text-white mt-0">At a Glance</h2>
                     <hr class="divider light my-4">
-                    <p class="text-white-50 mb-4">An RF communications engineer with a passion for FPGA design, signal
-                        processing and data analysis. Previously I specialised in autonomous marine communication
-                        systems, GNSS systems and digital interfaces.</p>
-                    <p class="text-white-50 mb-4">These days I'm working as a communications engineer, responsible for
-                        RF communications design, development, system integration and test & acceptance activities.</p>
+                    <p class="text-white-50 mb-4">A firmware engineer specialising in medical devices and microfluidics,
+                        with a passion for
+                        FPGA design and digital signal processing.</p>
+                    <p class="text-white-50 mb-4">
+                        I previously worked as an RF communications engineer performing design, development, and system
+                        integration of autonomous marine communication systems, GNSS systems, emergency locator beacons,
+                        and digital interfaces.</p>
 
-                    <a class="btn btn-light btn-xl" href="https://drive.google.com/file/d/1H0Xg4G8zupEVoTfvLqhSf_2rwhl-SMum/view?usp=sharing" target="_blank">View resume</a>
+                    <a class="btn btn-light btn-xl"
+                        href="https://drive.google.com/file/d/1Cm2cEN3VLWmk5rwUdJv7eAsASSQX0i-Y/view?usp=sharing"
+                        target="_blank">View resume</a>
                 </div>
             </div>
         </div>
@@ -94,169 +107,128 @@
         <div class="container">
             <h2 class="text-center mt-0">Portfolio Overview</h2>
             <hr class="divider my-4">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <i class="fas fa-4x fa-terminal text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">Python</h3>
-                        <p class="text-muted mb-3"></p>
-                    </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col portfolio-item text-center">
+                    <i class="fas fa-4x fa-code text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">C</h3>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <i class="fas fa-4x fa-cloud text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">Machine Learning & AWS</h3>
-                        <p class="text-muted mb-3"></p>
-                    </div>
+                <div class="col portfolio-item text-center">
+                    <i class="fas fa-4x fa-code text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">C++</h3>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <i class="fas fa-4x fa-database text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">SQL</h3>
-                        <p class="text-muted mb-3"></p>
-                    </div>
+                <div class="col portfolio-item text-center">
+                    <i class="fas fa-4x fa-code text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">Python</h3>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <i class="fas fa-4x fa-code text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">MATLAB</h3>
-                        <p class="text-muted mb-3"></p>
-                    </div>
+                <div class="col portfolio-item text-center">
+                    <i class="fas fa-4x fa-microchip text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">Spice, EDA</h3>
+                </div>
+                <div class="col portfolio-item text-center">
+                    <i class="fas fa-4x fa-terminal text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">Linux</h3>
+                </div>
+                <div class="col portfolio-item text-center">
+                    <i class="fas fa-4x fa-microchip text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">VHDL</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <i class="fas fa-4x fa-file-alt text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">Microsoft Office Suite</h3>
-                        <p class="text-muted mb-3"></p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <i class="fas fa-4x fa-file-code-o text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">C++</h3>
-                        <p class="text-muted mb-3"></p>
-                    </div>
-                </div>                
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <i class="fas fa-4x fa-microchip text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">SPICE & EDA</h3>
-                        <p class="text-muted mb-3"></p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <i class="fas fa-4x fa-microchip text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">VHDL</h3>
-                        <p class="text-muted mb-3"></p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="container">
+
+            <div class="container-fluid">
                 <hr class="mb-5 mt-5">
                 <div class="row justify-content-center">
-                    <div class="col-md-4 text-center">
-                        <h2>IVPRO</h2>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item text-center">
+                        <h2>IV-PRO</h2>
+                        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/IVPRO" target="_blank"
+                                role="button">See more IV-PRO&raquo;</a></p>
                         <p>An open-source real-time image and video processing framework for FPGA applications written
                             in VHDL, including interface controllers.</p>
+
                     </div>
-                    <div class="col-md-4 text-center">
-                        <h2>RISC-V: ALU</h2>
-                        <p>To learn more about the RISC-V ISA, here's the ALU of a soft processor I'm currently
-                            developing targeting FPGA platforms.</p>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item text-center">
+                        <h2>PolyFit</h2>
+                        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/polyfit" target="_blank"
+                                role="button">See more PolyFit &raquo;</a></p>
+                        <p>PolyFit is a C library designed to facilitate accurate polynomial fitting for curve
+                            approximation, allowing for interpolation and extrapolation of data points.
+                            With just a few input datapoints, you can model your system quickly and efficiently.
+                        </p>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <h2>RISC Matrices</h2>
-                        <p>An assembly level tool for multiplying matrices, targeted for the recently open-sourced MIPS
-                            architecure processors.</p>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-4 text-center">
-                        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/IVPRO" target="_blank"
-                                role="button">View details &raquo;</a></p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/VHDL/tree/main/ALU"
-                                target="_blank" role="button">View details &raquo;</a></p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <p><a class="btn btn-secondary"
-                                href="https://github.com/FinOrr/MIPS/tree/master/Matrices%20Multiplication"
-                                target="_blank" role="button">View details &raquo;</a></p>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item text-center">
+                        <h2>Auto Fluidics</h2>
+                        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/auto-fluidics" target="_blank"
+                                role="button">See more Auto Fluidics &raquo;</a></p>
+                        <p>Unleash the power of image processing and intelligent control in your microfluidic
+                            experiments. Gain deeper insights, automate workflows, and achieve unparalleled precision.
+                        </p>
                     </div>
                 </div>
-                </br></br>
+                </br>
                 <div class="row justify-content-center">
                     <div class="col-md-4 text-center">
-                        <h2>FPGA Based MODEM</h2>
+                        <h2>FPGA Modem</h2>
+                        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/VHDL/tree/main/Modem-Simulator"
+                                target="_blank" role="button">See more FPGA modem &raquo;</a></p>
                         <p>A MODEM written in VHDL that can generate random or predefined values, perform QPSK
                             modulation, simulate a tranmission channel, induce an adjustable error and demodulate the
                             signal.</p>
                     </div>
                     <div class="col-md-4 text-center">
-                        <h2>MATLAB Filters</h2>
-                        <p>FIR and IIR filter analysis and design in MATLAB for processing noisy audio and ECG signals.
-                            Pole-zero analysis was used for determing filter parameters, including documentation.</p>
+                        <h2>PID Autotuner</h2>
+                        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/pid-autotuner" target="_blank"
+                                role="button">See more PID Autotuner &raquo;</a></p>
+                        <p>This repo is my research on optimising PID controllers for enhanced control system
+                            performance.
+                            It covers heuristic and model-based tuning methods.</p>
                     </div>
                     <div class="col-md-4 text-center">
                         <h2>Solar Sound</h2>
+                        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/Solar-Sound" target="_blank"
+                                role="button">See more Solar Sound &raquo;</a></p>
                         <p>A portable bluetooth speaker that functions as a power bank. The design is powered by
                             conventional rechargeable AA-batteries for ease of use and features wireless charging
                             functionality.</p>
                     </div>
                 </div>
-
-                <div class="row justify-content-center">
-                    <div class="col-md-4 text-center">
-                        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/VHDL/tree/main/Modem-Simulator"
-                                target="_blank" role="button">View details &raquo;</a></p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <p><a class="btn btn-secondary"
-                                href="https://github.com/FinOrr/MATLAB/tree/master/Filter_Design" target="_blank"
-                                role="button">View details &raquo;</a></p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <p><a class="btn btn-secondary" href="https://github.com/FinOrr/Solar-Sound" target="_blank"
-                                role="button">View details &raquo;</a></p>
-                    </div>
-                </div>
             </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
     <section class="page-section bg-alt2" id="contact">
+        <div class="container-fluid"></div>
+        <div class="col-lg-8 text-center mx-auto">
+            <h2 class="mt-0">Get In Touch</h2>
+            <hr class="divider my-4">
+            <p class="text-muted mb-5">If you fancy working together, then get in touch.</p>
+          </div>
+        </div>
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="mt-0">Get In Touch</h2>
-                    <hr class="divider my-4">
-                    <p class="text-muted mb-5">If you fancy working together, then contact me and I will get back to you
-                        as soon as possible.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 mr-auto text-center">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col portfolio-item text-center">
                     <a class="d-block" href="mailto:finorr3@gmail.com">
                         <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
                     </a>
                 </div>
-                <div class="col-lg-4 mr-auto text-center">
+                <div class="col portfolio-item text-center">
                     <a class="d-block" href="https://github.com/FinOrr/">
                         <i class="fab fa-github-square fa-3x mb-3 text-muted"></i>
                     </a>
                 </div>
+                <div class="col portfolio-item text-center">
+                    <a class="d-block" href="https://www.linkedin.com/in/finorr/" target="_blank">
+                      <i class="fab fa-linkedin fa-3x mb-3" style="filter: grayscale(100%);"></i>
+                    </a>
+                  </div>
             </div>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-alt2 py-5">
         <div class="container">
-            <div class="small text-center text-muted">Copyright &copy; 2022 - Start Bootstrap</div>
+            <div class="small text-center text-muted">Copyright &copy; 2024 - Start Bootstrap</div>
         </div>
     </footer>
 
