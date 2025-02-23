@@ -1,26 +1,25 @@
 ---
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: VitePress
-  text: Starter Template
-  tagline: Blog included. Built on top of UnoCSS and Anu.
+  name: "Software Stuff"
+  text: "Thing's by Fin"
+  tagline: My great project tagline
   actions:
     - theme: brand
-      text: Guide
-      link: /guide/
+      text: Markdown Examples
+      link: /markdown-examples
     - theme: alt
-      text: Configs
-      link: /config/
-    - theme: alt
-      text: Blog Demo
-      link: /blog/
+      text: API Examples
+      link: /api-examples
 
 features:
-- title: "VitePress: Designed to be simplicity first"
-  details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
-- title: "UnoCSS: The instant on-demand Atomic CSS engine"
-  details: UnoCSS is an atomic-CSS engine instead of a framework. Everything is designed with flexibility and performance in mind.
-- title: "Blog Demo included"
-  details: Posts and Authors as sample predefinded. Composables for accessing data included.
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
