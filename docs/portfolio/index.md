@@ -6,7 +6,7 @@ hero:
   tagline: A collection of personal projects.
   actions:
     - theme: brand
-      text: See my GitHub profile
+      text: See more projects
       link: https://github.com/finorr
 
 ## Projects

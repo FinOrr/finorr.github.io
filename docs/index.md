@@ -3,22 +3,28 @@ layout: home
 
 hero:
   name: "Software Stuff"
-  text: "Thing's by Fin"
-  tagline: My great project tagline
+  text: "by Fin Orr"
+  tagline: Embedded Systems Engineer
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: See GitHub profile
+      link: 'https://github.com/finorr'
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Connect
+      link: 'https://linkedin.com/in/finorr'
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Portfolio
+    icon: 💼
+    details: My portfolio of personal projects.
+    link: /portfolio
+  - title: Blog
+    icon: 🚀
+    link: /blog
+    details: A collection of tutorials and new interesting technologies.
+  - title: Resources
+    icon: 📄
+    link: /resources
+    details: Learning resources that are useful, and I'd like to share.
 ---
 
