@@ -8,9 +8,8 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Portfolio", link: "/portfolio" },
-      { text: "Blog", link: "/blog" },
-      { text: "Resources", link: "/resources" },
-      { text: "Resume", link: "/resume" },
+      { text: "Resume", link: "https://drive.google.com/file/d/1bcdQndSKoNprDGIF8aL2V1QeRb8qiroU/view?usp=sharing" },
+      { text: "Blog", link: "https://finorr.substack.com/" },
     ],
 
     sidebar: [
