@@ -14,7 +14,7 @@ hero:
 features:
   - title: "Embedded NMEA-0183"
     icon:
-      src: ./img/nmea.png
+      src: "/img/nmea.png"
       alt: "A ship communicating with a satellite"
     details: "An NMEA-0183 parser for interfacing resource-constrained systems to marine digital interfaces."
     link: https://github.com/finorr/embedded-nmea-0183
