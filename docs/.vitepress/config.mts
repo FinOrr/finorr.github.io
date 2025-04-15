@@ -8,7 +8,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Portfolio", link: "/portfolio" },
-      { text: "Resume", link: "https://drive.google.com/file/d/1bcdQndSKoNprDGIF8aL2V1QeRb8qiroU/view?usp=sharing" },
+      { text: "Resume", link: "https://drive.google.com/file/d/12vh2X7LBF4Il6uqTi0lR7_pOblDZ1i2V" },
       { text: "Blog", link: "https://finorr.substack.com/" },
     ],
 
